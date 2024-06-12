@@ -1,0 +1,50 @@
+*{
+    font-family: "Jost", sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #ff8473, #fff9d2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    border-radius: 10px;
+    position: relative;
+
+}
+
+#timer{
+    position: absolute;
+    bottom: 10rem;
+}
+
+#timer button{
+    padding: 10px 10px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -8rem;
+    left: 2.8rem;
+    font-size: 3rem;
+
+}
